@@ -1,0 +1,32 @@
+{
+  "name": "maps",
+  "version": "0.0.1",
+  "description": "my openlayers hello world",
+  "main": "index.js",
+  "dependencies": {
+    "ol": "^5.1.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbenksy/maps.git"
+  },
+  "keywords": [
+    "map",
+    "openlayers",
+    "helloworld"
+  ],
+  "author": "Torben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torbenksy/maps/issues"
+  },
+  "homepage": "https://github.com/torbenksy/maps#readme"
+}
